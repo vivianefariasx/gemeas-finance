@@ -53,7 +53,7 @@ input {
 }
 
 .text1 {
-    width: 24px;
+    width: 100px;
     height: 30px;
     border-radius: 25%;
     letter-spacing: 5px;
@@ -62,18 +62,28 @@ input {
     cursor: pointer;
 }
 
-.roxo {
-    background-color: #777;
-}
-
-.azul {
-    background-color: #777;
-}
-
 .cinza {
     background-color: #777;
 }
 
-.verde {
-    background-color: #777;
+.bg {
+    background: #000;
+}
+
+.titulos {
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.page-subtitle {
+    margin-top: 5px;
+}
+
+.page-title {
+    margin: 0 0 5px;
+}
+
+.page-logo {
+    width: 200px;
 }

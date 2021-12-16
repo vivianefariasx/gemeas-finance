@@ -1,0 +1,12 @@
+#logo {
+    width: 50px;
+}
+
+.nav-link-text {
+    color: #136AC1;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #777;
+}

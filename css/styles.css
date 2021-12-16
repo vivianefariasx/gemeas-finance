@@ -1,0 +1,120 @@
+#logo {
+    width: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+h4 {
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #777;
+    font-weight: 400;
+}
+
+.block {
+    margin-bottom: 120px;
+}
+
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+#nave.active {
+    position: fixed;
+    background: #ffff;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.nav-link-text {
+    color: #136AC1;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #777;
+}
+
+.button {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.button-primay {
+    background-color: #136AC1;
+    border-color: #136AC1;
+}
+
+.button-primay:hover {
+    background-color: #777;
+    border-color: #136AC1;
+}
+
+.button-primay-outline {
+    border-color: #136AC1;
+}
+
+.button-primay-outline:hover {
+    background-color: #777;
+    border-color: #136AC1;
+}
+
+a {
+    color: #136AC1;
+}
+
+a:hover {
+    color: #777;
+}
+
+#servicos a.destaque {
+    display: block;
+    background: #E9E7F7;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#servicos a.destaque:hover {
+    background: #ffff;
+    box-shadow: 0px 0px 10px 0px rgba( 0, 0, 0, 0.12);
+    transform: scale(1.05);
+}
+
+#servicos p {
+    color: #777;
+}
+
+#servicos a.destaque .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#servicos a.destaque .img-container img {
+    max-height: 160px;
+}
